@@ -22,4 +22,13 @@ Le serveur sera accéssible sur http://localhost:4000 par défaut.
 
 ## API
 Il y a actuellement 3 api sur le serveur :
-*
+
+```
+GET /api/article
+```
+> Récupération des articles triés du plus récent au plus ancien
+> Format de retour : 
+> [
+>    {article},
+>    ...
+> ]
