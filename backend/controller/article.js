@@ -1,13 +1,13 @@
 const articleManager = require('../model/article');
 
-exports.getLastFive = (req, res, next) => {
-    res.status(200).json(articleManager.getLastFive());
+exports.getAll = (req, res, next) => {
+    res.status(200).json(articleManager.getAll());
 }
 
 exports.getById = (req, res, next) => {
     res.status(200).json(articleManager.getById(req.params.id));
 }
 
-exports.getFavorite = (req, res, next) => {
-    res.status(200).json(articleManager.getFavorite(req.body.favorites));
+exports.getFavorites = (req, res, next) => {
+    res.status(200).json(articleManager.getFavorites(req.body.favorites));
 }

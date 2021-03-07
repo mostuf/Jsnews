@@ -1,0 +1,21 @@
+body{
+    background-color: #303030;
+    font-family: "Calibri";
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container{
+    padding: 25px;
+}
+
+h1{
+    font-size: 150%;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px){
+    body{
+        font-size: 1.4rem;
+    }
+}
