@@ -44,6 +44,9 @@ GET /api/article/:id
 POST /api/article/
 @param favorites : [id]
 ```
-> Récupération des articles favoris (non triés)
+> Récupération des articles favoris (non triés)  
 > Format de retour :  
-> {article},  
+> [  
+> &nbsp;&nbsp;&nbsp;{article},  
+> &nbsp;&nbsp;&nbsp;...  
+> ]  
