@@ -51,9 +51,7 @@ var listArticle = [
 ];
 
 exports.getAll = () => {
-    return listArticle.sort((a, b) => {
-        return (Date.parse(a.publicationDate) < Date.parse(b.publicationDate))?1:-1;
-    });
+    return listArticle;
 }
 
 exports.getById = (id) => {

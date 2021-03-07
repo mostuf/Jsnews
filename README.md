@@ -37,7 +37,7 @@ Elles traitent toutes des articles. Un article est au format suivant :
 ```
 GET /api/article
 ```
-> Récupération des articles triés du plus récent au plus ancien  
+> Récupération des articles
 > Format de retour :  
 > [  
 > &nbsp;&nbsp;&nbsp;{article},  
