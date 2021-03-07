@@ -26,12 +26,13 @@ Il y a actuellement 3 api sur le serveur :
 Elles traitent toutes des articles. Un article est au format suivant : 
 
 > {  
->    "id" : int,  
->    "title": string,  
->    "publicationDate" : string,  
->    "image" : string,  
->    "content" : string  
+> &nbsp;&nbsp;&nbsp;"id" : int,  
+> &nbsp;&nbsp;&nbsp;"title": string,  
+> &nbsp;&nbsp;&nbsp;"publicationDate" : string,  
+> &nbsp;&nbsp;&nbsp;"image" : string,  
+> &nbsp;&nbsp;&nbsp;"content" : string  
 > }  
+
 
 ```
 GET /api/article
