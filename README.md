@@ -33,7 +33,7 @@ Elles traitent toutes des articles. Un article est au format suivant :
 > &nbsp;&nbsp;&nbsp;"content" : string  
 > }  
 
-
+### GetAll
 ```
 GET /api/article
 ```
@@ -44,6 +44,7 @@ GET /api/article
 > &nbsp;&nbsp;&nbsp;...  
 > ] 
 
+### GetById
 ```
 GET /api/article/:id
 ```
@@ -51,6 +52,7 @@ GET /api/article/:id
 > Format de retour :  
 > {article}
 
+### GetFavorites
 ```
 POST /api/article/
 @param favorites : [id]
