@@ -55,7 +55,10 @@ GET /api/article/:id
 ### GetFavorites
 ```
 POST /api/article/
-@body favorites : [id]
+@body 
+{
+    "favorites": [id]
+}
 ```
 > Récupération des articles favoris (non triés)  
 > Format de retour :  
