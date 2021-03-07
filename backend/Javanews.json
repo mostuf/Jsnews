@@ -76,8 +76,9 @@
           "entity": {
             "type": "Request",
             "method": {
-              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-              "name": "GET"
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
             },
             "body": {
               "formBody": {
@@ -85,7 +86,8 @@
                 "encoding": "application/x-www-form-urlencoded",
                 "items": []
               },
-              "bodyType": "Text"
+              "bodyType": "Text",
+              "textBody": "{\n  \"favorites\": [1,3,5]\n}"
             },
             "uri": {
               "query": {
@@ -97,11 +99,17 @@
                 "version": "V11"
               },
               "host": "localhost:4000",
-              "path": "/api/article/5"
+              "path": "/api/article"
             },
             "id": "3a613058-daa5-4684-af55-008f761005e9",
             "name": "Get Favourites",
-            "headers": []
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
           }
         }
       ]
