@@ -26,9 +26,9 @@ Il y a actuellement 3 api sur le serveur :
 ```
 GET /api/article
 ```
-> Récupération des articles triés du plus récent au plus ancien \n
-> Format de retour : 
-> [
->    {article},
->    ...
-> ]
+> Récupération des articles triés du plus récent au plus ancien  
+> Format de retour :  
+> [  
+>    {article},  
+>    ...  
+> ]  
