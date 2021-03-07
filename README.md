@@ -31,4 +31,19 @@ GET /api/article
 > [  
 > &nbsp;&nbsp;&nbsp;{article},  
 > &nbsp;&nbsp;&nbsp;...  
-> ]  
+> ] 
+
+```
+GET /api/article/:id
+```
+> Récupération d'un article par son id
+> Format de retour :  
+> {article}
+
+```
+POST /api/article/
+@param favorites : [id]
+```
+> Récupération des articles favoris (non triés)
+> Format de retour :  
+> {article},  
