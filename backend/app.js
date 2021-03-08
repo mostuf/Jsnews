@@ -6,6 +6,8 @@ const app = express();
 
 const articleRoute = require("./route/article");
 
+app.use("/image", express.static(path.join(__dirname, "image")));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
