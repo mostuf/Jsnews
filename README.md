@@ -3,7 +3,7 @@
 Copier l'url du repository et faire un : 
 * git clone https://github.com/mostuf/Javanews.git
 
-## Instalation
+## Installation
 Vous devez avoir installé nodejs et npm sur votre machine : https://www.npmjs.com/get-npm
 Positionnez vous sur le dossier backend à partir du projet
 ```
@@ -18,7 +18,13 @@ Vous pouvez maintenant lancer le projet en local pour l'utiliser
 ```
 > node server
 ```
-Le serveur sera accéssible sur http://localhost:4000 par défaut.
+Le serveur sera accessible sur http://localhost:4000 par défaut.
+
+Un fichier Javanews.json est présent dans le repository github, il sert à configurer l'outil Talend Api Tester pour envoyer des requêtes http vers le serveur.
+
+Vous pouvez télécharger cett extension pour google chrome ici : https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm
+
+Ce fichier de configuration peut aussi être chargé dans Postman, mais il peut y avoir des problèmes de compatibilité.
 
 ## API
 Il y a actuellement 3 api sur le serveur :
